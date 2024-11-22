@@ -1,8 +1,34 @@
-<main>
-    <h2>Archive</h2>
-    <ul>
-      <li><a href="posts/math-handout.pdf">Math Handout</a></li>
-      <li><a href="posts/physics-handout.pdf">Physics Handout</a></li>
-    </ul>
-  </main>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archieve</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Archieve</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="notes.html">Notes</a>
+            <a href="archive.html">Archive</a>
+        </nav>
+    </header>
+        
+        <div class="handouts-section">
+            <h2>Lecture Handouts</h2>
+            
+            <!-- Buttons to open PDFs -->
+            <button id="lecture1-link">Lecture 1 Handout</button>
+            <button id="lecture2-link">Lecture 2 Handout</button>
+            <button id="lecture3-link">Lecture 3 Handout</button>
+
+            <!-- View counter -->
+            <div id="view-counter">Views: 0</div>
+        </div>
+
+        <script src="js/script.js"></script>
+</body>
+</html>

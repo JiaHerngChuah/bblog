@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background-color: #4CAF50;
+    background-color: #2b3762;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -23,6 +23,25 @@ body {
     padding: 2rem;
   }
   
+  .upload-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+  }
+
+  #fileList {
+      margin-top: 20px;
+      text-align: left;
+  }
+
+  #fileList a {
+      display: block;
+      margin: 10px 0;
+      color: blue;
+      text-decoration: underline;
+  }
+
   footer {
     text-align: center;
     padding: 1rem;
