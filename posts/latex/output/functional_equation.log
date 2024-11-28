@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.21)  28 NOV 2024 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.21)  28 NOV 2024 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./math/graph.tex
-(math/graph.tex
+**./math/functional_equation.tex
+(math/functional_equation.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 
@@ -217,13 +217,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/asymptote\asymptote.sty
 Package: asymptote 2024/02/26 v1.38 Asymptote style file for LaTeX
 
-(C:\Users\USER\Downloads\Programming\blog\posts\latex\output\graph.pre)
+No file functional_equation.pre.
 \ASYbox=\box55
 \ASYdimen=\dimen150
 \c@asy=\count275
 \AsyStream=\write3
 \AsyPreStream=\write4
-
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
@@ -269,7 +268,7 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
-\openout4 = `graph.pre'.
+\openout4 = `functional_equation.pre'.
 
 ) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -1294,8 +1293,9 @@ Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
 \CF_substtoks=\toks55
 )
 Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
-)) (C:\Users\USER\Downloads\Programming\blog\posts\latex\output\graph.aux)
-\openout1 = `graph.aux'.
+))
+No file functional_equation.aux.
+\openout1 = `functional_equation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -1351,10 +1351,8 @@ g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 8.
- (C:\Users\USER\Downloads\Programming\blog\posts\latex\output\graph.out)
-(C:\Users\USER\Downloads\Programming\blog\posts\latex\output\graph.out)
 \@outlinefile=\write6
-\openout6 = `graph.out'.
+\openout6 = `functional_equation.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -1458,34 +1456,123 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 23.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: bookmark level for unknown Problem defaults to 0 on inpu
+t line 23.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 28.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 33.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 40.
+
 [1
 
 
 {C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(C:\Users\USER\Downloads\Programming\blog\posts\latex\output\graph.aux)
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 45.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 53.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 59.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 64.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 69.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 76.
+ [2]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 82.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 87.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 92.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 99.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 107.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 121.
+
+[3]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 127.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 133.
+ [4]
+(C:\Users\USER\Downloads\Programming\blog\posts\latex\output\functional_equatio
+n.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `graph.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `functional_equation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `functional_equation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39078 strings out of 474423
- 802098 string characters out of 5742190
- 1934496 words of memory out of 5000000
- 60787 multiletter control sequences out of 15000+600000
- 568602 words of font info for 95 fonts, out of 8000000 for 9000
+ 39411 strings out of 474423
+ 810648 string characters out of 5742190
+ 1957496 words of memory out of 5000000
+ 61040 multiletter control sequences out of 15000+600000
+ 571382 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,20n,128p,10930b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmssbx10.pfb>
-Output written on C:\Users\USER\Downloads\Programming\blog\posts\latex\output\g
-raph.pdf (1 page, 35406 bytes).
+ 123i,20n,128p,10944b,998s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+095.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/USER
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Us
+ers/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.
+pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on C:\Users\USER\Downloads\Programming\blog\posts\latex\output\f
+unctional_equation.pdf (4 pages, 187067 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 20493 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 31277 words of extra memory for PDF output out of 35830 (max. 10000000)
 
