@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Just algebra}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Convexity}{6}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Local bounding, then take union bound}{6}{section.2}%
+\contentsline {section}{\numberline {3}Match coefficients}{6}{section.3}%
+\contentsline {section}{\numberline {4}Sequences - Algebra}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Induction-type, Local, Do cases}{8}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Sequences - Combinatorial Idea (Extremal etc.)}{8}{section.5}%
+\contentsline {section}{\numberline {6}Sequences - Consider partial sum, block of sum, cumulative sum}{9}{section.6}%
+\contentsline {section}{\numberline {7}Smoothing}{10}{section.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

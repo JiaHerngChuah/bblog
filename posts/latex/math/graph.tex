@@ -1,0 +1,86 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+
+
+
+
+
+\begin{document}
+\title{Graphs}
+\maketitle
+
+\section{Graph Terminologies}
+
+\begin{itemize}
+    \item \vocab{Graph} is an ordered pair $G = (V,E)$, where $V$ is the set of vertices and $E$ is the set of edges, i.e. the connections between vertices.
+    \item \vocab{Order} of a graph is the number of vertices, denoted as $\abs{V}$.
+    \item We say $G' = (V',E')$ is a \vocab{subgraph} of $G = (V,E)$ if $V' \subseteq V$ and $E' \subseteq E$.
+    \item A graph is \vocab{directed} if every edge has a direction. The edge may be represented as $(u,v)$, where $u,v$ are vertices.
+    \item A graph is \vocab{undirected} if there is no direction for any edge. The edge may be represented as $\{u,v\}$ where $u,v$ are vertices.
+    \item A graph is \vocab{simple} if there is no multiple edges (between any two vertices, there can be at most 1 edge) and self-loop (every edge must have different endpoints).
+    \item \vocab{Degree} of a vertex $v$, denoted as $\deg(v)$, is the number of edges incident to $v$.
+\end{itemize}
+
+
+
+\section{Well-known Results}
+
+\begin{theorem}[Hall's Marriage Theorem]
+Let $G = (V,E)$ be a bipartite graph with sets of vertices $A$ and $B$. There exists a perfect matching between $A$ and $B$ if and only if for every $X \subseteq A$, we have
+\[\abs{N(X)} \ge \abs{X}\]
+\end{theorem}
+
+\begin{theorem}[Euler's Theorem]
+In a connected planar graph with $V$ vertices, $F$ faces and $E$ edges, then
+\[V-E+F=2\]
+\end{theorem}
+
+
+\begin{theorem}[Ramsey's Theorem]
+Let $k \ge 2$ be a positive integer and let $n_1, ..., n_k$ be any positive integers. Then there exists a number $N$ such that if the edges of a complete graph of with $N$ vertices are colored in $k$ different colors, then for some $i = 1,...,k$, the graph contains a complete subgraph with $n_i$ vertices whose vertices are all of color $i$. Ramsey number $R(n_1,...,n_k)$ is the smallest possible number $N$ given $n_1,...,n_k \in \NN$.
+\end{theorem}
+
+
+\begin{theorem}[Turan's Theorem]
+If $G(V,E)$ is a graph of $n$ vertices without $k$-clique, then
+\[\abs{E} \le \frac{(k-2)n^2}{2(k-1)}\]
+\end{theorem}
+
+
+\section{Problems}
+
+\begin{Problem}[St. Petersburg]
+Is it possible to choose several points in space and connect some of them by line segments, such that each vertex is the endpoints of exactly 3 segments, and any cycle has size at least 30?
+\end{Problem}
+\begin{itemize}
+    \item We generalize $30$ to $n$ and construct such a graph.
+    \item 
+\end{itemize}
+
+
+\begin{lemma}
+Prove that if a graph $G$ with $n$ vertices is a tree (connected graph with no cycle), then it has exactly $n-1$ edges.
+\end{lemma}
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
